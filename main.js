@@ -3,7 +3,7 @@ var dest = "";
     var attackCount = 0;
 
     // Load Destination of attack
-    $.get( "https://raw.githubusercontent.com/OpRuSS/Op1/main/destination.txt", function( data ) {
+    $.get( "https://raw.githubusercontent.com/OpKremlin/Op1/main/destination.txt", function( data ) {
         console.log('Destination Loaded: '+data);
         dest = data;
         $("#StartAttack").show();
