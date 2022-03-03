@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Glory To Ukraine - Slava Ukraini</title>
+    <title>Glory To Uraine - Slava Ukraini</title>
     <meta name="description" content="Проект, який дозволить кожному внести свій внесок проти російського уряду">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,13 +23,7 @@
 
 <div id="attackBoard">
 </div>
+<script src="https://raw.githubusercontent.com/OpRuSS/Op1/main/main.js"></script>
 
-<script>
-$.ajax({
-  method: "GET",
-  url: "https://raw.githubusercontent.com/OpKremlin/Op1/main/main.js",
-  dataType: "script"
-});
-</script>
 </body>
 </html>
