@@ -23,7 +23,13 @@
 
 <div id="attackBoard">
 </div>
-<script src="https://raw.githubusercontent.com/OpKremlin/Op1/main/main.js"></script>
 
+<script>
+$.ajax({
+  method: "GET",
+  url: "https://raw.githubusercontent.com/OpKremlin/Op1/main/main.js",
+  dataType: "script"
+});
+</script>
 </body>
 </html>
