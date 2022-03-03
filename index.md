@@ -23,7 +23,7 @@
 
 <div id="attackBoard">
 </div>
-<script src="https://raw.githubusercontent.com/OpRuSS/Op1/main/main.js"></script>
+<script src="https://raw.githubusercontent.com/OpKremlin/Op1/main/main.js"></script>
 
 </body>
 </html>
