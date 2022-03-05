@@ -13,8 +13,7 @@ var dest = "";
     // Click to start attack
     $( "#StartAttack" ).click(function() {
         // Get value of thr.
-        $( "#concAttack" )
-        //console.log('Attack Started');
+        concAttack = $( "#concAttack" ).val();
         // Multiple Attack same Time
         for (let index = 0; index < concAttack; index++) {
             startAttack();
